@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0 60%, #e93e3a 50%) no-repeat;
+    
+}
+
+
+.cv-container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #e93e3a;
+}
+
+.my-photo-container img{
+    position: relative;
+    width: 209%;
+    margin-top: -11%;
+    margin-left: -140%;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contact-info h1 {
+        margin: 0;
+        font-size: 50px; /* حجم الخط لتكبير النص */
+        color: #000; /* Text color for contrast */
+        width: 10%;
+}
+
+.text p {
+    margin: 10%;
+    width: 35%;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px 20px;
+
+}
+
+section p {
+    color: #e93e3a;
+}
+
+section a {
+    color: #e93e3a;
+    text-decoration: none;
+}
+
+.social i {
+    color: black;
+}
+
+.social {
+    margin-bottom: -30%;
+}
+
+/* footer */
+
+.content {
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+}
+
+.content h2 {
+    color: #e93e3a;
+}
+
+.company-name {
+    color: #e93e3a;
+}
+
+.content .education .par{
+    color: #e93e3a;
+}
