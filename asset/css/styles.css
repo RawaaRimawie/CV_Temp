@@ -1,14 +1,14 @@
 @import url('https://www.fontsquirrel.com/fonts/poppins');
 
 
-
 body {
     font-family: 'Poppins', sans-serif, 'Indian Type Foundry';
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #f0f0f0 60%, #e93e3a 50%) no-repeat;
-    overflow-x : hidden;
-    
+    overflow-x: hidden;
+    box-sizing: border-box;
+
 }
 
 
@@ -27,12 +27,13 @@ body {
     color: #e93e3a;
 }
 
-.my-photo-container img{
+.my-photo-container img {
     position: relative;
     width: 209%;
     margin-top: -16%;
     margin-left: -140%;
     margin-bottom: -100%;
+
 }
 
 .contact-info {
@@ -60,7 +61,7 @@ body {
     margin: 0;
     font-size: 90px;
     color: #000;
-    
+
 }
 
 .text p {
@@ -69,7 +70,7 @@ body {
 }
 
 
-section {
+.se {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -80,11 +81,11 @@ section {
 
 }
 
-section p {
+.se p {
     color: #e93e3a;
 }
 
-section a {
+.se a {
     color: #e93e3a;
     text-decoration: none;
     margin: 0 10px;
@@ -97,6 +98,7 @@ section a {
 .social {
     margin-bottom: -40%;
 }
+
 
 /* footer */
 
@@ -132,7 +134,7 @@ section a {
     color: #e93e3a;
 }
 
-.content .education .par{
+.content .education .par {
     color: #e93e3a;
 }
 
@@ -151,41 +153,41 @@ section a {
 }
 
 
+@media (max-width: 700px) {
+    .cv-container {
+        width: auto;
+        height: auto;
 
-
-@media screen and (max-width: 550px) {
-
-    .cv-container{
-        overflow-x : hidden;
     }
+
     .header {
-        padding: 10px;
+        padding: 15px;
     }
 
+    
     .my-photo-container img {
-        width: 200px; 
+        width: 250%;
     }
 
     .contact-info h1 {
-        font-size: 28px; 
+        font-size: 28px;
+        
     }
 
     .contact-info .pa {
-        font-size: 14px;
+        font-size: 20px;
     }
 
-    /* section {
-        padding: 5px 5px;
-    } */
-
-    .social {
-        justify-self: center;
+    .se {
+        padding: 10px 10px;
     }
 
-    .social i {
-        font-size: 18px;
-        justify-self: center;
+    .content-call {
+        padding: 30px 30px;
+        margin-left: 10px;
     }
+
+
 
     .content h2 {
         font-size: 18px;
@@ -193,21 +195,13 @@ section a {
 
     .content .it {
         font-size: 10px;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
 
     }
+
     .content {
-       
+
         font-size: 10px;
         flex-direction: column;
     }
-
-   
-
-    .se .social{
-        text-align: center;
-
-    }
-    
-    
 }
